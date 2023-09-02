@@ -42,7 +42,7 @@ const Work = () => {
 
       {/* filter menu */}
       <div className="app__work-filter">
-        {["UI/UX", "Web App", "Mobile App", "React JS", "All"].map((item, index) => (
+        {["UI/UX", "Web App", "Mobile App", "React JS", "All", "Vue"].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
